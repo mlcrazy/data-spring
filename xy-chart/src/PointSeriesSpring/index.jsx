@@ -1,7 +1,7 @@
 import React from 'react';
 import { PointSeries } from '@data-ui/xy-chart';
 import { Spring, config } from 'react-spring';
-import { calcFlattenedStart, constructArray } from '../../utils/motionUtil';
+import { calcFlattenedStart, constructArray } from '../utils/motionUtil';
 
 const PointSeriesSpring = (props) => {
   const motionPoints = calcFlattenedStart(props);
