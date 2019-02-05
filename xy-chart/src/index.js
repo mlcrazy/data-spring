@@ -1,6 +1,6 @@
-import PointSeriesSpring from 'PointSeriesSpring';
-import LineSeriesSpring from 'LineSeriesSpring';
-import AreaSeriesSpring from 'AreaSeriesSpring';
+import PointSeriesSpring from './PointSeriesSpring/index.jsx';
+import LineSeriesSpring from './LineSeriesSpring/index.jsx';
+import AreaSeriesSpring from './AreaSeriesSpring/index.jsx';
 
 export {
   PointSeriesSpring as PointSeriesSpring,
