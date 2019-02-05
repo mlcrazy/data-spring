@@ -1,6 +1,7 @@
 {
   "name": "@data-spring/xy-chart",
-  "version": "0.9.2",
+  "version": "0.9.3",
+  "main": "src/index.js",
   "description": "Components and utility functions for using react-spring animations in data-ui/xy-chart data series visualizations",
   "repository": "https://github.com/LedgerInvesting/data-spring.git",
   "keywords": [
