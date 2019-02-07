@@ -25,7 +25,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@data-spring/xy-chart": "^0.9.5",
+    "@data-spring/xy-chart": "^0.9.6",
     "@data-ui/xy-chart": "0.0.54",
     "@material-ui/core": "^3.9.2",
     "react": "^16.0.0",
