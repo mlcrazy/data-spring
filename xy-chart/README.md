@@ -7,7 +7,7 @@ A data-spring/xy-chart series component works by wrapping a data-ui series compo
 ### For Example
 ```javascript
 import React from 'react';
-import { XYChart, XAxis, YAxis } from '@data-ui/xy-chart';
+import { XYChart, XAxis, YAxis, CrossHair } from '@data-ui/xy-chart';
 import { config } from 'react-spring';
 import { PointSeriesSpring, LineSeriesSpring } from '@data-spring/xy-chart';
 

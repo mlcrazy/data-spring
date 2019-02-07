@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "useBuiltIns": true,
+        "debug": false
+      }
+    ],
+    "react",
+    "stage-0"
+  ],
+  "env": {
+    "production": {
+      "presets": ["minify"]
+    }
+  }
+}

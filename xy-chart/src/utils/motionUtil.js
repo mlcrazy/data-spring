@@ -70,15 +70,14 @@ export const originCalculator = (animationStart, point, bounds, scale, isArea, c
       };
     case 'bottomLeft':
       if (isArea) {
-        originPoint.y0 = bounds.yMax;
-        originPoint.y1 = bounds.yMax;
+        originPoint.y0 = bounds.yMin;
+        originPoint.y1 = bounds.yMin;
       } else {
-        originPoint.y = bounds.yMax;
+        originPoint.y = bounds.yMin;
       }
       return {
         ...originPoint,
         x: bounds.xMin,
-        y: bounds.yMin,
       };
     case 'bottomRight':
       if (isArea) {
@@ -89,7 +88,7 @@ export const originCalculator = (animationStart, point, bounds, scale, isArea, c
       }
       return {
         ...originPoint,
-        x: bounds.xMin,
+        x: bounds.xMax,
       };
     case 'topRight':
       if (isArea) {
@@ -166,7 +165,7 @@ export const originCalculator = (animationStart, point, bounds, scale, isArea, c
         [boundTo]: bounds[closestEdge],
       };
     case 'custom':
-      const customCalculation = customAnimationStart(point);
+      const customCalculation = customAnimationStart(point, bounds, scale, isArea);
 
       return {
         ...customCalculation,
@@ -215,37 +214,36 @@ export const calcFlattenedStart = (props) => {
     );
     motionPoints.from[`x${index}`] = origin.x;
     motionPoints.to[`x${index}`] = point.x;
-    motionPoints.from[`y${index}`] = origin.y;
-    motionPoints.to[`y${index}`] = point.y;
 
     if (isArea) {
       motionPoints.from[`y0${index}`] = origin.y0;
       motionPoints.to[`y0${index}`] = point.y0;
       motionPoints.from[`y1${index}`] = origin.y1;
       motionPoints.to[`y1${index}`] = point.y1;
+    } else {
+      motionPoints.from[`y${index}`] = origin.y;
+      motionPoints.to[`y${index}`] = point.y;
     }
     if (sizeCalculator) {
       motionPoints.from.size = 1;
-      motionPoints.to.size = sizeCalculator(point);
+      motionPoints.to.size = sizeCalculator(point, props);
     }
     return point;
   });
-
   return motionPoints;
 };
 
-export const constructArray = (values, data, isArea) => {
+export const constructArray = (values, data) => {
   /** Constructs an array of x/y objects from a flattened object representation
   */
   return data.map((entry, index) => {
-    const point = {
-      ...entry,
-      x: values[`x${index}`],
-      y: values[`y${index}`],
-    };
-    if (isArea) {
+    let point = { ...entry };
+    point.x = values[`x${index}`];
+    if (values.hasOwnProperty('y00')) {
       point.y0 = values[`y0${index}`];
       point.y1 = values[`y1${index}`];
+    } else {
+      point.y = values[`y${index}`];
     }
     return point;
   });
