@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack"
   },
-  "description": "Components and utility functions for using react-spring animations in data-ui/xy-chart data series visualizations",
+  "description": "Components and utility functions for using react-spring animations in data-ui/xy-chart data series visualizations https://ledgerinvesting.github.io/data-spring/",
   "repository": "https://github.com/LedgerInvesting/data-spring.git",
   "keywords": [
     "d3",
