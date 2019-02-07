@@ -4,6 +4,11 @@ Components and utility functions for using react-spring animations in data-ui/xy
 ## Combining data-ui/xy-chart With react-spring Wrappers
 A data-spring/xy-chart series component works by wrapping a data-ui series component in react-spring containers. Use spring series components within the data-ui/xy-chart the same way you would use a data-ui series component but with additional props for configuring react-spring and calculating the default data-spring animation start values.
 
+### Installation
+```
+$yarn add @data-spring/xy-chart
+```
+
 ### For Example
 ```javascript
 import React from 'react';
