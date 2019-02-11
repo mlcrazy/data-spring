@@ -25,12 +25,14 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@data-spring/xy-chart": "^0.9.6",
+    "@data-spring/xy-chart": "^0.9.7",
     "@data-ui/xy-chart": "0.0.54",
     "@material-ui/core": "^3.9.2",
+    "fs": "^0.0.1-security",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-spring": "^7.2.8"
+    "react-spring": "^7.2.8",
+    "react-syntax-highlighter": "^10.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

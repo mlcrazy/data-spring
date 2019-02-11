@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Switch from '@material-ui/core/Switch';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { XYChart, XAxis, YAxis, LineSeries, PointSeries } from '@data-ui/xy-chart';
 import { config } from 'react-spring';
 import { PointSeriesSpring, LineSeriesSpring } from '@data-spring/xy-chart';
-import { colors, styles } from './styles.js'
+import { colors, styles } from './styles.js';
 
 export default class DataSpringExample extends React.Component {
   constructor(props) {
@@ -17,28 +17,29 @@ export default class DataSpringExample extends React.Component {
   }
 
   handleClick() {
+    this.handleToggle();
+    setTimeout(() => this.handleToggle(), 1000);
+  }
+
+  handleToggle() {
     this.setState({ show: !this.state.show });
   }
 
   render() {
     const { seriesOne, seriesTwo } = this.state;
-    const {chartBounds } = this.props;
+    const { chartBounds } = this.props;
 
     return (
       <div style={styles.flexContainer}>
         <div style={styles.toggleWrapper}>
-          <Typography variant="h4">Welcome to data-spring!</Typography>
-          <Switch
-            checked={this.state.show}
-            onChange={() => this.handleClick()}
-          />
-          <Typography
-            inline
+          <Button
+            variant="contained"
+            disabled={!this.state.show}
             onClick={() => this.handleClick()}
-            style={{ cursor: 'pointer' }}
+            style={{marginTop: '1rem'}}
           >
-            Click Here!
-          </Typography>
+            Spring
+          </Button>
         </div>
         <div style={styles.chartWrapper}>
           <Typography variant="h5" style={styles.headerStyles}>Not animated.</Typography>

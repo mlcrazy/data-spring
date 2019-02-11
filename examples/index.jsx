@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { XYChart, XAxis, YAxis, CrossHair } from '@data-ui/xy-chart';
-import { config } from 'react-spring';
-import { PointSeriesSpring, LineSeriesSpring } from '@data-spring/xy-chart';
 import { exampleSeries } from './exampleData';
 import DataSpringExample from './DataSpringExample';
+import dataSpringExampleCode from './DataSpringExample.code';
 import AnimationStartExample from './AnimationStartExample';
+import animationStartExampleCode from './AnimationStartExample.code';
 import RandomizeExample from './RandomizeExample';
+import randomizeExampleCode from './RandomizeExample.code';
 import AreaExample from './AreaExample';
+import areaExampleCode from './AreaExample.code';
+import GithubCornerRight from './GithubCornerRight';
+import CodeView from './CodeView';
 
 const seriesOne = exampleSeries(10, ['y']),
   seriesTwo =  exampleSeries(10, ['y']);
@@ -21,10 +24,15 @@ const chartBounds = {
 
 const ExamplesApp = ({ seriesOne, seriesTwo }) => (
   <React.Fragment>
+    <GithubCornerRight link="https://github.com/LedgerInvesting/data-spring" />
     <DataSpringExample chartBounds={chartBounds} seriesOne={seriesOne} seriesTwo={seriesTwo} />
-    <AnimationStartExample chartBounds={chartBounds} seriesOne={seriesOne} seriesTwo={seriesTwo} />
+    <CodeView code={dataSpringExampleCode}/>
     <RandomizeExample chartBounds={chartBounds} />
+    <CodeView code={randomizeExampleCode}/>
     <AreaExample chartBounds={chartBounds} seriesOne={seriesOne} />
+    <CodeView code={areaExampleCode}/>
+    <AnimationStartExample chartBounds={chartBounds} seriesOne={seriesOne} seriesTwo={seriesTwo} />
+    <CodeView code={animationStartExampleCode}/>
   </React.Fragment>
 )
 

@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Switch from '@material-ui/core/Switch';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { XYChart, XAxis, YAxis, LineSeries, PointSeries } from '@data-ui/xy-chart';
 import { config } from 'react-spring';
@@ -17,6 +16,11 @@ export default class AreaExample extends React.Component {
   }
 
   handleClick() {
+    this.handleToggle();
+    process.nextTick(() => this.handleToggle());
+  }
+
+  handleToggle() {
     this.setState({ show: !this.state.show });
   }
 
@@ -26,17 +30,13 @@ export default class AreaExample extends React.Component {
     return (
       <div style={styles.flexContainer}>
         <div style={styles.toggleWrapper}>
-          <Switch
-            checked={this.state.show}
-            onChange={() => this.handleClick()}
-          />
-          <Typography
-            inline
+          <Button
+            variant="contained"
             onClick={() => this.handleClick()}
-            style={{ cursor: 'pointer' }}
+            style={{marginTop: '1rem'}}
           >
-            Click Here!
-          </Typography>
+            Spring
+          </Button>
         </div>
         <div style={styles.chartWrapper}>
           <Typography variant="h5" style={styles.headerStyles}>Area series</Typography>
@@ -46,7 +46,7 @@ export default class AreaExample extends React.Component {
             xScale={{ type: 'linear', domain: [0, chartBounds.xMax] }}
             yScale={{ type: 'linear', domain: [0, chartBounds.yMax] }}
           >
-            <XAxis label="Numbers" />
+            <XAxis label="Time" />
             <YAxis label="Doggo Memes" />
             { this.state.show &&
               <AreaSeriesSpring
@@ -71,7 +71,7 @@ export default class AreaExample extends React.Component {
             xScale={{ type: 'linear', domain: [0, chartBounds.xMax] }}
             yScale={{ type: 'linear', domain: [0, chartBounds.yMax] }}
           >
-            <XAxis label="Numbers" />
+            <XAxis label="As Boxes" />
             <YAxis label="Doggo Memes" />
             { this.state.show &&
               <AreaSeriesSpring

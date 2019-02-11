@@ -26,5 +26,12 @@ export const styles = {
   toggleWrapper: {
     width: 1400,
     margin: '0 0 20px 60px',
+  },
+  code: {
+    width: 1400,
+    margin: '0 0 20px 60px',
+    color: '#e5c07b',
+    background: '#21252b',
+    whiteSpace: 'pre-wrap',
   }
 }

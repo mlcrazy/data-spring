@@ -8,7 +8,7 @@ import { PointSeriesSpring, LineSeriesSpring } from '@data-spring/xy-chart';
 import { exampleSeries } from './exampleData';
 import { colors, styles } from './styles.js'
 
-export default class DataSpringExample extends React.Component {
+export default class RandomizeExample extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

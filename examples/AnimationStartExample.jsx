@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@material-ui/core/Button';
-import Switch from '@material-ui/core/Switch';
 import Typography from '@material-ui/core/Typography';
 import { XYChart, XAxis, YAxis, LineSeries, PointSeries } from '@data-ui/xy-chart';
 import { config } from 'react-spring';
@@ -18,6 +17,11 @@ export default class AnimationStartExample extends React.Component {
   }
 
   handleClick() {
+    this.handleToggle();
+    process.nextTick(() => this.handleToggle());
+  }
+
+  handleToggle() {
     this.setState({ show: !this.state.show });
   }
 
@@ -29,17 +33,13 @@ export default class AnimationStartExample extends React.Component {
       <div style={styles.flexContainer}>
         <div style={styles.toggleWrapper}>
           <Typography variant="h4">Data spring has built in animation start value options.</Typography>
-          <Switch
-            checked={this.state.show}
-            onChange={() => this.handleClick()}
-          />
-          <Typography
-            inline
+          <Button
+            variant="contained"
             onClick={() => this.handleClick()}
-            style={{ cursor: 'pointer' }}
+            style={{marginTop: '1rem'}}
           >
-            Click Here!
-          </Typography>
+            Spring
+          </Button>
         </div>
         <div style={styles.chartWrapper}>
           <Typography variant="h5" style={styles.headerStyles}>bottom</Typography>
@@ -111,17 +111,13 @@ export default class AnimationStartExample extends React.Component {
           </XYChart>
         </div>
         <div style={styles.toggleWrapper}>
-          <Switch
-            checked={this.state.show}
-            onChange={() => this.handleClick()}
-          />
-          <Typography
-            inline
+          <Button
+            variant="contained"
             onClick={() => this.handleClick()}
-            style={{ cursor: 'pointer' }}
+            style={{marginTop: '1rem'}}
           >
-            Click Here!
-          </Typography>
+            Spring
+          </Button>
         </div>
         <div style={styles.chartWrapper}>
           <Typography variant="h5" style={styles.headerStyles}>closest edge</Typography>
