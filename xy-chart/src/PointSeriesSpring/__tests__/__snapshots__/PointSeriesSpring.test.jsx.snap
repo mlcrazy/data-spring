@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders successfully 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g
+      className="cx-group"
+      style={null}
+      transform="translate(0, 0)"
+    >
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={317.77777777777777}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={508.4444444444444}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={127.1111111111111}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={635.5555555555555}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders with default animationStart props 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g
+      className="cx-group"
+      style={null}
+      transform="translate(0, 0)"
+    >
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={0}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={0}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={0}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={0}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders with default springConfig props 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g
+      className="cx-group"
+      style={null}
+      transform="translate(0, 0)"
+    >
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={317.77777777777777}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={508.4444444444444}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={127.1111111111111}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+      <a
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="presentation"
+        xlinkHref="#"
+      >
+        <g
+          className="cx-group vx-glyph"
+          transform="translate(0, 0)"
+        >
+          <circle
+            className="vx-glyph-dot"
+            cx={635.5555555555555}
+            cy={222}
+            fill="#000"
+            fillOpacity=".75"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            r={4}
+            stroke="#000"
+            strokeDasharray={null}
+            strokeWidth={0.3}
+          />
+        </g>
+      </a>
+    </g>
+  </g>
+</svg>
+`;

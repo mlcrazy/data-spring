@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders bound area 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g
+      className="cx-group"
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      style={null}
+      transform="translate(0, 0)"
+    >
+      <g>
+        <path
+          className="vx-area"
+          d="M127.1111111111111,222C169.48148148148147,222,211.85185185185185,222,254.2222222222222,222C275.4074074074074,222,296.5925925925926,222,317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222L508.4444444444444,222C444.88888888888886,222,381.3333333333333,222,317.77777777777777,222C296.5925925925926,222,275.4074074074074,222,254.2222222222222,222C211.85185185185185,222,169.48148148148147,222,127.1111111111111,222Z"
+          fill="#000"
+          fillOpacity=".75"
+          stroke="transparent"
+          strokeWidth={0.3}
+        />
+      </g>
+      <g>
+        <path
+          className="vx-linepath"
+          d="M127.1111111111111,222C169.48148148148147,222,211.85185185185185,222,254.2222222222222,222C275.4074074074074,222,296.5925925925926,222,317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222"
+          fill="none"
+          stroke="#000"
+          strokeDasharray={null}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={0.3}
+        />
+      </g>
+      <g>
+        <path
+          className="vx-linepath"
+          d="M127.1111111111111,222C169.48148148148147,222,211.85185185185185,222,254.2222222222222,222C275.4074074074074,222,296.5925925925926,222,317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222"
+          fill="none"
+          stroke="#000"
+          strokeDasharray={null}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={0.3}
+        />
+        <g
+          className="vx-linepath-glyphs"
+        >
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders successfully 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g
+      className="cx-group"
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      style={null}
+      transform="translate(0, 0)"
+    >
+      <g>
+        <path
+          className="vx-area"
+          d="M317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222C381.3333333333333,222,254.2222222222222,222,127.1111111111111,222C296.5925925925926,222,466.074074074074,222,635.5555555555555,222L635.5555555555555,222C466.074074074074,222,296.5925925925926,222,127.1111111111111,222C254.2222222222222,222,381.3333333333333,222,508.4444444444444,222C444.88888888888886,222,381.3333333333333,222,317.77777777777777,222Z"
+          fill="#000"
+          fillOpacity=".75"
+          stroke="transparent"
+          strokeWidth={0.3}
+        />
+      </g>
+      <g>
+        <path
+          className="vx-linepath"
+          d="M317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222C381.3333333333333,222,254.2222222222222,222,127.1111111111111,222C296.5925925925926,222,466.074074074074,222,635.5555555555555,222"
+          fill="none"
+          stroke="#000"
+          strokeDasharray={null}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={0.3}
+        />
+        <g
+          className="vx-linepath-glyphs"
+        >
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders with default animationStart props 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g
+      className="cx-group"
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      style={null}
+      transform="translate(0, 0)"
+    >
+      <g>
+        <path
+          className="vx-area"
+          d="M317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222C381.3333333333333,222,254.2222222222222,222,127.1111111111111,222C296.5925925925926,222,466.074074074074,222,635.5555555555555,222L635.5555555555555,222C466.074074074074,222,296.5925925925926,222,127.1111111111111,222C254.2222222222222,222,381.3333333333333,222,508.4444444444444,222C444.88888888888886,222,381.3333333333333,222,317.77777777777777,222Z"
+          fill="#000"
+          fillOpacity=".75"
+          stroke="transparent"
+          strokeWidth={0.3}
+        />
+      </g>
+      <g>
+        <path
+          className="vx-linepath"
+          d="M317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222C381.3333333333333,222,254.2222222222222,222,127.1111111111111,222C296.5925925925926,222,466.074074074074,222,635.5555555555555,222"
+          fill="none"
+          stroke="#000"
+          strokeDasharray={null}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={0.3}
+        />
+        <g
+          className="vx-linepath-glyphs"
+        >
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders with default springConfig props 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g
+      className="cx-group"
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      style={null}
+      transform="translate(0, 0)"
+    >
+      <g>
+        <path
+          className="vx-area"
+          d="M317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222C381.3333333333333,222,254.2222222222222,222,127.1111111111111,222C296.5925925925926,222,466.074074074074,222,635.5555555555555,222L635.5555555555555,222C466.074074074074,222,296.5925925925926,222,127.1111111111111,222C254.2222222222222,222,381.3333333333333,222,508.4444444444444,222C444.88888888888886,222,381.3333333333333,222,317.77777777777777,222Z"
+          fill="#000"
+          fillOpacity=".75"
+          stroke="transparent"
+          strokeWidth={0.3}
+        />
+      </g>
+      <g>
+        <path
+          className="vx-linepath"
+          d="M317.77777777777777,222C381.3333333333333,222,444.88888888888886,222,508.4444444444444,222C381.3333333333333,222,254.2222222222222,222,127.1111111111111,222C296.5925925925926,222,466.074074074074,222,635.5555555555555,222"
+          fill="none"
+          stroke="#000"
+          strokeDasharray={null}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={0.3}
+        />
+        <g
+          className="vx-linepath-glyphs"
+        >
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+          <a
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            role="presentation"
+            xlinkHref="#"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+`;

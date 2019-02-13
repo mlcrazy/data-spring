@@ -5,8 +5,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve('build'),
-        filename: 'index.js',
-        libraryTarget: 'commonjs2'
+        filename: 'index.js'
     },
     module: {
         rules: [

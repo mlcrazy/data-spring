@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders successfully 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g>
+      <path
+        className="vx-linepath"
+        d="M63.55555555555555,222C105.92592592592592,222,148.29629629629628,222,190.66666666666666,222C338.96296296296293,222,487.25925925925924,222,635.5555555555555,222"
+        fill="none"
+        onClick={[Function]}
+        onMouseLeave={[Function]}
+        onMouseMove={[Function]}
+        stroke="#000"
+        strokeDasharray={null}
+        strokeDashoffset={0}
+        strokeLinecap="round"
+        strokeWidth={0.3}
+        style={null}
+      />
+      <g
+        className="vx-linepath-glyphs"
+      >
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders with default animationStart props 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g>
+      <path
+        className="vx-linepath"
+        d="M0,222Z"
+        fill="none"
+        onClick={[Function]}
+        onMouseLeave={[Function]}
+        onMouseMove={[Function]}
+        stroke="#000"
+        strokeDasharray={null}
+        strokeDashoffset={0}
+        strokeLinecap="round"
+        strokeWidth={0.3}
+        style={null}
+      />
+      <g
+        className="vx-linepath-glyphs"
+      >
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders with default springConfig props 1`] = `
+<svg
+  height={350}
+  role="img"
+  width={700}
+>
+  <g
+    className="cx-group"
+    transform="translate(64, 64)"
+  >
+    <g>
+      <path
+        className="vx-linepath"
+        d="M63.55555555555555,222C105.92592592592592,222,148.29629629629628,222,190.66666666666666,222C338.96296296296293,222,487.25925925925924,222,635.5555555555555,222"
+        fill="none"
+        onClick={[Function]}
+        onMouseLeave={[Function]}
+        onMouseMove={[Function]}
+        stroke="#000"
+        strokeDasharray={null}
+        strokeDashoffset={0}
+        strokeLinecap="round"
+        strokeWidth={0.3}
+        style={null}
+      />
+      <g
+        className="vx-linepath-glyphs"
+      >
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+        <a
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          role="presentation"
+          xlinkHref="#"
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;
