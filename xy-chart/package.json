@@ -1,6 +1,6 @@
 {
   "name": "@data-spring/xy-chart",
-  "version": "0.9.8",
+  "version": "0.9.10",
   "main": "build/index.js",
   "scripts": {
     "build": "webpack --production",
@@ -28,7 +28,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.3.1",
-    "@data-ui/xy-chart": "^0.0.54",
+    "@data-ui/xy-chart": "^0.0.77",
     "babel-eslint": "^8.2.2",
     "babel-loader": "^8.0.2",
     "eslint": "^4.19.1",
