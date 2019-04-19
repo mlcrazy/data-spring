@@ -24,7 +24,7 @@ const chartBounds = {
 
 const ExamplesApp = ({ seriesOne, seriesTwo }) => (
   <React.Fragment>
-    <GithubCornerRight link="https://github.com/LedgerInvesting/data-spring" />
+    <GithubCornerRight link="https://github.com/mlcrazy/data-spring" />
     <DataSpringExample chartBounds={chartBounds} seriesOne={seriesOne} seriesTwo={seriesTwo} />
     <CodeView code={dataSpringExampleCode}/>
     <RandomizeExample chartBounds={chartBounds} />
