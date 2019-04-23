@@ -1,12 +1,12 @@
 {
-  "name": "@data-spring/xy-chart",
+  "name": "@data-spring/sparkline",
   "version": "0.9.11",
   "main": "build/index.js",
   "scripts": {
     "build": "webpack --production",
     "test": "jest"
   },
-  "description": "Components and utility functions for using react-spring animations in data-ui/xy-chart data series visualizations https://mlcrazy.github.io/data-spring/",
+  "description": "Components and utility functions for using react-spring animations in data-ui/sparkline data series visualizations https://mlcrazy.github.io/data-spring/",
   "repository": "https://github.com/mlcrazy/data-spring.git",
   "keywords": [
     "d3",
@@ -28,7 +28,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.3.1",
-    "@data-ui/xy-chart": "^0.0.77",
+    "@data-ui/sparkline": "^0.0.77",
     "babel-eslint": "^8.2.2",
     "babel-loader": "^8.0.2",
     "eslint": "^4.19.1",

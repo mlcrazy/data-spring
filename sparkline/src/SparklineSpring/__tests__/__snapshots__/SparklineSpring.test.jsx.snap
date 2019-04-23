@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a point series 1`] = `
+<svg
+  aria-label="Test animated line"
+  className={null}
+  height={350}
+  preserveAspectRatio={null}
+  role="img"
+  style={null}
+  viewBox={null}
+  width={700}
+>
+  <g
+    className="vx-group"
+    transform="translate(16, 16)"
+  >
+    <g
+      className="vx-group"
+      transform="translate(0, 0)"
+    >
+      <g
+        className="vx-group vx-glyph"
+        transform="translate(0, 0)"
+      >
+        <circle
+          className="vx-glyph-dot"
+          cx={0}
+          cy={159}
+          fill="#000"
+          fillOpacity={1}
+          onMouseLeave={null}
+          onMouseMove={null}
+          r={5}
+          stroke="#000"
+          strokeWidth={2}
+        />
+      </g>
+      <g
+        className="vx-group vx-glyph"
+        transform="translate(0, 0)"
+      >
+        <circle
+          className="vx-glyph-dot"
+          cx={222.66666666666666}
+          cy={159}
+          fill="#000"
+          fillOpacity={1}
+          onMouseLeave={null}
+          onMouseMove={null}
+          r={5}
+          stroke="#000"
+          strokeWidth={2}
+        />
+      </g>
+      <g
+        className="vx-group vx-glyph"
+        transform="translate(0, 0)"
+      >
+        <circle
+          className="vx-glyph-dot"
+          cx={445.3333333333333}
+          cy={159}
+          fill="#000"
+          fillOpacity={1}
+          onMouseLeave={null}
+          onMouseMove={null}
+          r={5}
+          stroke="#000"
+          strokeWidth={2}
+        />
+      </g>
+      <g
+        className="vx-group vx-glyph"
+        transform="translate(0, 0)"
+      >
+        <circle
+          className="vx-glyph-dot"
+          cx={668}
+          cy={159}
+          fill="#000"
+          fillOpacity={1}
+          onMouseLeave={null}
+          onMouseMove={null}
+          r={5}
+          stroke="#000"
+          strokeWidth={2}
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders successfully 1`] = `
+<svg
+  aria-label="Test animated line"
+  className={null}
+  height={350}
+  preserveAspectRatio={null}
+  role="img"
+  style={null}
+  viewBox={null}
+  width={700}
+>
+  <g
+    className="vx-group"
+    transform="translate(16, 16)"
+  >
+    <g
+      className="vx-group"
+      onMouseLeave={null}
+      onMouseMove={null}
+      transform="translate(0, 0)"
+    >
+      <g>
+        <path
+          className="vx-linepath"
+          d="M0,159C74.22222222222221,159,148.44444444444446,159,222.66666666666666,159C296.88888888888886,159,371.1111111111111,159,445.3333333333333,159C519.5555555555555,159,593.7777777777778,159,668,159"
+          fill="none"
+          stroke="#000"
+          strokeDasharray={null}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={0.3}
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders with default animationStart props 1`] = `
+<svg
+  aria-label="Test animated line"
+  className={null}
+  height={350}
+  preserveAspectRatio={null}
+  role="img"
+  style={null}
+  viewBox={null}
+  width={700}
+>
+  <g
+    className="vx-group"
+    transform="translate(16, 16)"
+  >
+    <g
+      className="vx-group"
+      onMouseLeave={null}
+      onMouseMove={null}
+      transform="translate(0, 0)"
+    >
+      <g>
+        <path
+          className="vx-linepath"
+          d="M0,159C74.22222222222221,159,148.44444444444446,159,222.66666666666666,159C296.88888888888886,159,371.1111111111111,159,445.3333333333333,159C519.5555555555555,159,593.7777777777778,159,668,159"
+          fill="none"
+          stroke="#000"
+          strokeDasharray={null}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={0.3}
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`renders with default springConfig props 1`] = `
+<svg
+  aria-label="Test animated line"
+  className={null}
+  height={350}
+  preserveAspectRatio={null}
+  role="img"
+  style={null}
+  viewBox={null}
+  width={700}
+>
+  <g
+    className="vx-group"
+    transform="translate(16, 16)"
+  >
+    <g
+      className="vx-group"
+      onMouseLeave={null}
+      onMouseMove={null}
+      transform="translate(0, 0)"
+    >
+      <g>
+        <path
+          className="vx-linepath"
+          d="M0,159C74.22222222222221,159,148.44444444444446,159,222.66666666666666,159C296.88888888888886,159,371.1111111111111,159,445.3333333333333,159C519.5555555555555,159,593.7777777777778,159,668,159"
+          fill="none"
+          stroke="#000"
+          strokeDasharray={null}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={0.3}
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;
