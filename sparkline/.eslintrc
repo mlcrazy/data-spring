@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "func-names": [
+      "error",
+      "never"
+    ],
+    "one-var": "off",
+  },
+  "env": {
+    "browser": true
+  }
+}
