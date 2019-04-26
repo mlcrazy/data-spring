@@ -9,6 +9,8 @@ import RandomizeExample from './RandomizeExample';
 import randomizeExampleCode from './RandomizeExample.code';
 import AreaExample from './AreaExample';
 import areaExampleCode from './AreaExample.code';
+import SparklineSpringExample from './SparklineSpringExample';
+import sparklineSpringExampleCode from './SparklineSpringExample.code';
 import GithubCornerRight from './GithubCornerRight';
 import CodeView from './CodeView';
 
@@ -33,6 +35,8 @@ const ExamplesApp = ({ seriesOne, seriesTwo }) => (
     <CodeView code={areaExampleCode}/>
     <AnimationStartExample chartBounds={chartBounds} seriesOne={seriesOne} seriesTwo={seriesTwo} />
     <CodeView code={animationStartExampleCode}/>
+    <SparklineSpringExample chartBounds={{ ...chartBounds, xMax: 30 }} seriesOne={seriesOne} />
+    <CodeView code={sparklineSpringExampleCode}/>
   </React.Fragment>
 )
 

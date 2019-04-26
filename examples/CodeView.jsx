@@ -27,7 +27,6 @@ export default class CodeView extends React.Component {
   }
 
   render() {
-    console.log(this.props.code);
     const { show } = this.state;
     return (
       <div style={styles.flexContainer}>

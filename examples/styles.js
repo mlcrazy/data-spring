@@ -3,6 +3,7 @@ export const colors = {
   purple: '#4867e9',
   green: '#1dc083',
   orange: '#fc9902',
+  grey: '#D4DADF',
 }
 
 export const styles = {
